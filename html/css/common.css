@@ -1,0 +1,157 @@
+html{
+    overflow-x: hidden;
+    font-size: 16px;
+}
+html, h1,h2,h3,p,a,li,ul,span,td{
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #222222;
+    word-spacing: -0.1em;
+    word-break: keep-all;
+}
+@media(max-width: 719px){
+    html, h1,h2,h3,p,a,li,ul,span,td{
+        letter-spacing: -0.05em;
+    }
+}
+table, th, td{
+    margin: 0;
+    padding: 0;
+    border-spacing: 0;
+    box-sizing: border-box;
+}
+.btnone{
+    border-top: unset !important;
+}
+.gl{
+    font-family: 'NanumBareunGothicLight';
+}
+.gb{
+    font-family: 'NanumBareunGothicBold';
+}
+.txtUp{
+    transform: translateY(0%) !important;
+}
+.dnone{
+    display: none !important;
+}
+.moveleft{  
+    animation-name: moveleft;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.moveright{
+    animation-name: moveright;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+.moveRight{
+    animation-name: moveRight;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes moveleft{
+    from{
+        transform: translateX(23%);
+    }
+    to{
+        transform: translateX(-23%);
+    }
+}
+@keyframes moveright{
+    from{
+        transform: translateX(0%);
+        
+    }
+    to{
+        transform: translateX(12%);
+    }
+}
+@keyframes moveRight{
+    from{
+        transform: translateX(0%);
+        
+    }
+    to{
+        transform: translateX(-10%);
+    }
+}
+
+
+@keyframes opacity{
+    from{
+        opacity: 1; 
+        
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+@keyframes intTxtMove{
+    from{
+        opacity: 0; 
+        transform: translateX(100%);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+@keyframes intTxtMove2{
+    from{
+        opacity: 0; 
+        transform: translateX(-150%);
+        
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0%);
+    }
+}
+
+.fadeIn{
+    animation-name: fadeIn;
+    animation-duration: 0.3s;
+    animation-delay: 0.8s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeIn{
+    from{
+        opacity: 0;         
+    }
+    to{
+        opacity: 1;
+    }
+}
+/* .fadeOut{
+    animation-name: fadeOut;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeOut{
+    from{
+        opacity: 1;         
+    }
+    to{
+        opacity: 0;
+    }
+} */
+
+.maskMove{
+    animation-name: maskMove;
+    animation-duration: 1.5s;
+    animation-fill-mode: forwards;
+}
+@keyframes maskMove{
+    0%{
+        transform: translateX(100%);
+    }
+    50%{
+        transform: translateX(0%);
+    }
+    100%{
+        transform: translateX(-100%);
+    }
+}

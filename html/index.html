@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>test</title>
+    
+    <!-- 폰트 -->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;500;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;500;600&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="/css/font.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/common.css?ver<?php echo time()?>">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="/css/minji.min.css?ver<?php echo time()?>">
+
+    <!-- 자바스크립트 -->
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <!-- 제이쿼리 -->
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    
+</head>
+<body>
+    <div class="intro">
+        <div class="introTxt">
+            <p class="intTxtTop">새로운 미래는</p>
+            <div class="intTxtMiddle mt20">
+                <p class="inXai">자이</p>
+                <p class="xaiIn">에서</p>
+            </div>
+            <p class="intTxtBottom mt20">시작되었다</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="navi">
+            <div class="naviinner">
+                <div class="logoWrap">
+                    <a href="#none">
+                        <img src="./img/logo2.png" alt="로고">
+                    </a>
+                </div>
+                <div id="menu" class="menu">
+                    <div class="menuBtn">
+                        <div class="line"></div>
+                        <div class="line"></div>
+                        <div class="line lastline"></div>
+                    </div>
+                </div>
+                <div class="menulist">
+                    <div id="close" class="closeBtnWrap">
+                        <div class="closeBtn closeleft"></div>
+                        <div class="closeBtn closeright"></div>
+                    </div>
+                    <ul class="d1ul textBold">
+                        <div class="menuBg">
+                            <img src="./img/menuBg.png" alt="">
+                        </div>
+                        <li class="d1li d1grand">
+                            <a href="#grandCity">
+                                <p class="d1lip">
+                                    대명자이그랜드시티
+                                </p>
+                            </a>
+                        </li>
+                        <li class="d1li d1pre">
+                            <a href="#premium">
+                                <p class="d1lip">프리미엄</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1mag">
+                            <a href="#magazine">
+                                <p class="d1lip">매거진</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1club">
+                            <a href="#clubXian">
+                                <p class="d1lip">클럽자이안</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1brand">
+                            <a href="#brand">
+                                <p class="d1lip">브랜드</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1table">
+                            <a href="#table">
+                                <p class="d1lip">사업개요</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1way">
+                            <a href="#way">
+                                <p class="d1lip">오시는길</p>
+                            </a>
+                        </li>
+                        <li class="d1li d1event">
+                            <a href="#event">
+                                <p class="d1lip">관심고객등록</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="contentWrap">
+            <!-- sec1 메인 -->
+            <div id="grandCity"></div>
+            <div class="mainWrap">
+                <div class="main">
+                </div>
+            </div>
+            <!-- 퀵메뉴 -->
+            <div class="quickWrap">
+                <div id="quick" class="quick">
+                    <div class="more">
+                    </div>
+                    <div class="quickMenu">
+                        <ul class="quickUl">
+                            <li>
+                                <a href="https://www.youtube.com/c/madeinxi">
+                                    <img src="./img/icon_youtube.png" alt="">
+                                    <p>공식 유튜브 채널</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://pf.kakao.com/_NKDTK">
+                                    <img src="./img/icon_kakao.png" alt="">
+                                    <p>우수중개 채널</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://pf.kakao.com/_IgBkj">
+                                    <img src="./img/icon_kakao2.png" alt="">
+                                    <p>카카오톡 공식 채널</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://bit.ly/2KIbglE">
+                                    <img src="./img/icon_xi.png" alt="">
+                                    <p>자이 앱 설치</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+           
+            <!-- sec2 텍스트,영상 -->
+            <div class="grandCity">
+                <div class="grandText">
+                    <div class="premium">
+                        <p>
+                            역대급 프리미엄이 만나<br/>
+                            역대급 대단지로 완성되다
+                        </p>
+                    </div>
+                    <div class="premiumXi">
+                        <p>대명자이 그랜드시티</p>
+                    </div>
+                </div>
+                <!-- <div class="video">
+                    <div class="thumwrap">
+                        <div class="thumnail">
+                            <iframe width="100%" height="100%" src="https://player.vimeo.com/video/749028305" frameborder="0"></iframe>
+                            <div class="videoBtn"></div>
+                        </div>
+                        <div id="mask" class="masker"></div>
+                    </div>
+                </div> -->
+                <div class="vd_area mo">
+                    <span class="vdWrap">
+                        <iframe width="100%" height="100%" src="https://player.vimeo.com/video/749028305" frameborder="0" class="mask_img"></iframe>
+                        <div class="th mask_img">
+                            <div id="maskBtn" class="maskBtn"></div>
+                        </div>
+                    </span>
+                    <div id="mask" class="masker"></div>
+                </div>
+            </div>
+    
+            <!-- sec3 텍스트,지도 -->
+            <div class="location">
+                <div class="locaText">
+                    <p class="blueline">
+                        LOCATION PREMIUM
+                    </p>
+                    <div class="whiteTwrap">
+                        <div class="dalguWrap">
+                            <p class="dalgubul">
+                                프리미엄은<br/>
+                                <span class="textBold">
+                                    달구벌대로!
+                                </span>
+                            </p>
+                        </div>
+                        <div class="fameWrap">
+                            <p class="fame">
+                                명성은<br/>
+                                <span class="textBold">
+                                    자이 그대로!
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="locaImgWrap">
+                    <div class="locaImg">
+                        <img src="./img/loca-map.jpg" alt="">
+                    </div>
+                    <div class="locaMask"></div>
+                </div>
+            </div>
+    
+            <!-- make a change in one's life -->
+            <div class="moveText">
+                <p class="move textBold make">MAKE A</p>
+                <p class="move textBold change"><span class="moveBlue">CHANGE</span> IN</p>
+                <div class="textCenter smallText">
+                    <span class="lineAfter">생활에 변화를 주다</span>
+                    <!-- <span class="moveLine"></span> -->
+                    <span>대명자이 그랜드시티</span>
+                </div>
+                <p class="move textBold life">ONE'S LIFE</p>
+            </div>
+    
+            <!-- sec4 프리미엄 -->
+            <div class="premiumWrap">
+                <div class="premiumBox">
+                    <div  id="premium" class="preText">
+                        <p class="blueline">
+                            PREMIUM
+                        </p>
+                        <p class="preScale">2,023세대 그랜드 스케일 라이프</p>
+                        <p class="preBigText textBold">
+                            대구 달구벌대로가<br/>
+                            기다린<br/>
+                            명품 브랜드<br/>
+                            초대형 단지<br/>
+                        </p>
+                    </div>
+                    <div class="brand">
+                        <div class="brandImg">
+                            <img src="./img/brand.jpg" alt="">
+                        </div>
+                        <div class="brandText">
+                            <p class="brandSub sub">BRAND</p>
+                            <p class="brandCon con">
+                                <span>·</span>
+                                넘볼 수 없는 품격과 가치로 인정받는 프리미엄<br/>
+                                주거브랜드 자이
+                            </p>
+                            <p class="brandCon con con2">
+                                <span>·</span>
+                                단일 브랜드로 더욱 빛나는 2,023세대 매머드<br/>
+                                단지 프리미엄
+                            </p>
+                        </div>
+                    </div>
+                    <div class="infra">
+                        <div class="infraImg">
+                            <img src="./img/premium-img2.jpg" alt="">
+                        </div>
+                        <div class="infraText">
+                            <p class="infraSub sub">INFRA</p>
+                            <p class="infraCon con">
+                                <span>·</span>
+                                홈플러스,현대백화점,영대병원,성당시장 등<br/>
+                                풍부한 생활 인프라
+                            </p>
+                            <p class="infraCon con con2">
+                                <span>·</span>
+                                단지 앞 두류공원에서 앞산 조망(일부세대)까지<br/>
+                                사계절 쾌적한 자연
+                            </p>
+                        </div>
+                    </div>
+                    <div class="traffic">
+                        <div class="trafficImg">
+                            <img src="./img/traffic.jpg" alt="">
+                        </div>
+                        <div class="trafficText">
+                            <p class="trafficSub sub">TRAFFIC</p>
+                            <p class="trafficCon con">
+                                <span>·</span>
+                                대구 2호선 반고개역, 3호선 남산역이 인접한<br/>
+                                편리한 더블 역세권
+                            </p>
+                            <p class="trafficCon con con2">
+                                <span>·</span>
+                                달구별대로, 성당로 및 다양한 버스노선을 이용하는<br/>
+                                교통의 중심
+                            </p>
+                        </div>
+                    </div>
+                    <div class="education">
+                        <div class="eduImg">
+                            <img src="./img/education.jpg" alt="">
+                        </div>
+                        <div class="eduText">
+                            <p class="eduSub sub">EDUCATION</p>
+                            <p class="eduCon con">
+                                <span>·</span>
+                                단지 앞 성남초등학교가 위치해 도보통학<br/>
+                                가능한 자녀 교육환경
+                            </p>
+                            <p class="eduCon con con2">
+                                <span>·</span>
+                                경상중, 대구고, 달성고, 대구교대, 영남대의과<br/>
+                                대학 등 다양한 교육여건
+                            </p>
+                        </div>
+                    </div>
+                    <div id="magazine" class="magazineWrap swiper mySwiper">
+                        <div class="maginner swiper-wrapper">
+                            <div class="grandPride swiper-slide">
+                                <div class="magazine grand">
+                                    <img src="./img/granPremium.png" alt="">
+                                </div>
+                            </div>
+                            <div class="maginfra swiper-slide">
+                                <div class="magazine mag_infra">
+                                    <img src="./img/magazine1.png" alt="">
+                                </div>
+                            </div>
+                            <div class="magBrand swiper-slide">
+                                <div class="magazine mag_brand">
+                                    <img src="./img/magazine2.png" alt="">
+                                </div>
+                            </div>   
+                            <div class="magTraffic swiper-slide">
+                                <div class="magazine mag_traffic">
+                                    <img src="./img/magazine3.png" alt="">
+                                </div>
+                            </div>
+                            <div class="magEdu swiper-slide">
+                                <div class="magazine mag_edu">
+                                    <img src="./img/magazine4.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            
+            <div id="clubXian" class="clubXian">
+                <div class="clubText">
+                    <p class="blueline">
+                        CLUB XIAN
+                    </p>
+                    <div class="clubTwrap">
+                        <p class="community">커뮤니티의 한계를 넘어선</p>
+                        <p class="clubCulture">주거문화의 혁신</p>
+                        <p class="lifestyle">
+                            여유와 활력 가득한 라이프스타일을 만드는<br/>
+                            고품격 커뮤니티 문화가 펼쳐집니다.
+                        </p>
+                    </div>
+                </div>
+                <div class="clubImg">
+                    <img src="./img/xian.png" alt="">
+                </div>
+            </div>
+            <div id="brand" class="brandBox">
+                <div class="brandWrap">
+                    <p class="blueline">
+                        BRAND
+                    </p>
+                    <h2 class="brandWhiteSub">자이가 들어오면<br/>도시는 달라집니다</h2>
+                    <p class="brandWhiteCon">
+                        특별한 순간은 일상이 되고,<br/>
+                        빛나는 일상이 프리미엄이 되는곳!<br/>
+                        도시를 빛나게 할 가장 빛나는 별이 되겠습니다.<br/>
+                    </p>
+                    <div class="logoImg">
+                        <em class="mb30"></em>
+                        <img src="./img/logo2.png" alt="">
+                    </div>
+                </div>
+                <div class="awardImg">
+                    <img src="./img/awards.png" alt="">
+                </div>
+            </div>
+            <div class="xiMoment">
+                <div class="momentText">
+                    <p class="momentBlue">자이라는 이름의 순간,</p>
+                    <p class="blueline2">
+                        IT'S Xi MOMENT
+                    </p>
+                    <P class="momentMiddle">매일의 삶이 남달라지는 순간</P>
+                    <p class="momentBottom">
+                        우리는 그것을<br/>
+                        '자이로움'이라<br/>
+                        부릅니다<br/>
+                    </p>
+                </div>
+                <div class="vd_area mo">
+                    <span class="vdWrap momo">
+                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KM8-GozIE3E" frameborder="0" class="mask_img"></iframe>
+                        <div class="th mask_img th2">
+                            <div id="maskBtn2" class="maskBtn2"></div>
+                        </div>
+                    </span>
+                    <div class="masker"></div>
+                </div>
+                <!-- <div class="video">
+                    <div class="thumwrap">
+                        <div class="thumnail">
+                            <a href="https://www.youtube.com/watch?v=KM8-GozIE3E">
+                                <div class="videoBtn"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+            <div id="table" class="sumBox">
+                <div class="summary">
+                    <div class="tableWrap">
+                        <div class="sumWrap">
+                            <p class="blueline">
+                                SUMMARY
+                            </p>
+                            <p class="sumSub">
+                                <span>대</span>구 달구벌대로가<br/>기다린<br/>
+                                <span>명</span>품 브랜드 대단지<br/>
+                            </p>
+                        </div>
+                        <table class="sumTable">
+                            <colgroup>
+                                <col width="23%"/>
+                                <col width="77%"/>
+                            </colgroup>
+                            <tr> 
+                                <th>
+                                    <span>
+                                        <em>대</em><em>지</em><em>위</em><em>치</em>
+                                    </span>
+                                </th>
+                                <td class="secTd">대구시 남구 대명3동 2031-2번지 일원</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>규</em><em>모</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">지하2층 ~ 지상34층</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>대</em><em>지</em><em>면</em><em>적</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">72,531.00㎡/td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>연</em><em>면</em><em>적</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">303,452.0264㎡</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>용</em><em>적</em><em>률</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">259.65%</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>건</em><em>폐</em><em>율</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">13.79%</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>세</em><em>대</em><em>수</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">2,023세대</td>
+                            </tr>
+                            <tr>
+                                <th class="btnone">
+                                    <span>
+                                        <em>주</em><em>차</em><em>대</em><em>수</em>
+                                    </span>
+                                </th>
+                                <td class="secTd btnone">2,797대</td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div id="way" class="locationMap">
+                        <div class="locaWrap">
+                            <div class="locaBlue">
+                                <p class="blueline">
+                                    LOCATION
+                                </p>
+                            </div>
+                            <div class="mapImg">
+                                <img src="/img/map2.png" alt="">
+                            </div>
+                            <div class="txtBtn">
+                                <div class="lacaText">
+                                    <div class="locaFlex">
+                                        <p class="sample">견본주택</p>
+                                        <p class="lacaAdress">대구시 달서구 두류동 135-4번지</p>
+                                    </div>
+                                    <p class="openDate">※정식 오픈일 이후에 관람 가능합니다.</p>
+                                </div>
+                                <div class="callBtn">
+                                    <p class="call">문의전화</p>
+                                    <p class="number textBold">1660-2050</p>
+                                </div>
+                                <div class="goMapBtn">
+                                    <div class="naverMap">
+                                        <p>네이버지도 바로가기</p>
+                                    </div>
+                                    <div class="cacaoMap">
+                                        <p>카카오맵 바로가기</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gohomepage">
+                        <div class="homeWrap">
+                            <p class="generation">2,023세대 역대급 주거라이프</p>
+                            <div class="bottomLogo">
+                                <img src="./img/logo2.png" alt="">
+                            </div>
+                            <div class="gohomeBtn" target="_blank">
+                                <a href="https://xi.co.kr/dm3">
+                                    <p>분양홈페이지 바로가기</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="event" class="agreeBox">
+                        <div class="agree">
+                            <div class="agreeWrap">
+                                <div class="agreeText">
+                                    <p class="agreeSub">관심고객등록</p>
+                                    <p class="agreeCon">
+                                        관심고객 등록 후 상세한 정보를<br/>
+                                        보다 빠르고 편리하게 받아보세요.
+                                    </p>
+                                </div>
+                                <form action="">
+                                    <input class="textBox" type="text" title="입력" placeholder="이름 입력">
+                                    <input class="textBox" type="text" title="입력" placeholder="휴대폰 번호 입력(-제외)">
+                                    <p class="reservation">※전화상담 예약자 본인의 연락처를 작성해주세요.</p>
+                                    <div id="checkAfter" class="agreeCheck">
+                                        <label for="">
+                                            <input type="checkbox" name="select" value="1">
+                                            개인정보 수집 및 이용 동의(필수)
+                                        </label>
+                                        <a href="#">약관보기</a>
+                                    </div>
+                                    <input class="textBox invitation" type="submit" value="INVITATION">
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="gs">
+                    <p class="textBold">GS건설</p>
+                    <p>주소 : 서울특별시 종로구 종로33 그랑서울</p>
+                    <span class="ceoName">대표이사 : 임병용   |   사업자등록번호 : 104-81 18121</span>
+                </div>
+                <div class="online">
+                    <p class="textBold">온라인대행. (주)애드베리</p>
+                    <p>서울특별시 서초구 강남대로 99길 28, 비동 1층 102호(잠원동)</p>
+                    <span class="ceoName">대표이사 : 김은환   |   사업자등록번호 : 372-88-02385</span>
+                </div>
+                <p class="copyright">Copyright ⓒ 2022 Xi all rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+    
+    <script src="/js/scroll.js?ver<?php echo time()?>"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <script src="/js/minji.js"></script>
+    <script src="/js/swiper.js"></script>
+    
+    
+</body>
+</html>

@@ -1,0 +1,302 @@
+.header {
+  padding: 0 50px;
+  background-color: #000000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 80px;
+  position: relative;
+  max-width: 1820px;
+  min-width: 1200px;
+  margin: 0 auto;
+}
+.header #gnb .d1ul {
+  display: flex;
+  align-items: center;
+}
+.header #gnb .d1ul:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(11, 20, 38, 0.5647058824);
+  transition: 0.5s;
+  height: 0;
+}
+.header #gnb .d1ul:hover:before {
+  height: 189px;
+}
+.header #gnb .d1ul:hover .d1li > .d2ul {
+  height: 145px;
+}
+.header #gnb .d1ul .d1li {
+  position: relative;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 35px;
+}
+.header #gnb .d1ul .d1li:after {
+  content: "";
+  position: absolute;
+  width: 50%;
+  height: 6px;
+  background-color: #b59a80;
+  top: 0;
+  left: 25%;
+  display: none;
+}
+.header #gnb .d1ul .d1li:hover:after {
+  display: block;
+}
+.header #gnb .d1ul .d1li .d1a p {
+  color: #b59a80;
+  font-size: 1.125rem;
+  position: relative;
+  white-space: nowrap;
+}
+.header #gnb .d1ul .d1li .d2ul {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 40px;
+  overflow: hidden;
+  height: 0;
+  transition: 0.3s;
+}
+.header #gnb .d1ul .d1li .d2ul li {
+  padding-bottom: 27px;
+}
+.header #gnb .d1ul .d1li .d2ul li:hover a {
+  color: #bfb8b2;
+}
+.header #gnb .d1ul .d1li .d2ul li:hover a:after {
+  display: block;
+}
+.header #gnb .d1ul .d1li .d2ul li a {
+  color: #b59a80;
+  font-size: 1rem;
+  white-space: nowrap;
+  position: relative;
+}
+.header #gnb .d1ul .d1li .d2ul li a:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background-color: #bfb8b2;
+  top: 100%;
+  left: 0;
+  display: none;
+}
+
+.sec1 {
+  background-image: url(/grace/gracepc/sub1/img/subTopBg.png);
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-size: auto;
+  max-width: 1920px;
+  margin: 0 auto;
+}
+.sec1 .sec1_top {
+  text-align: center;
+  padding-top: 105px;
+}
+.sec1 .sec1_top .top_txt1 {
+  font-size: 2.625rem;
+  color: white;
+  font-weight: 600;
+}
+.sec1 .sec1_top .top_txt2 {
+  padding-top: 20px;
+  font-size: 0.75rem;
+  color: white;
+  letter-spacing: 6px;
+}
+.sec1 .sec1_tab {
+  padding-top: 95px;
+}
+.sec1 .sec1_tab .tab_box {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  background-color: #3b4558;
+}
+.sec1 .sec1_tab .tab_box .home_btn {
+  width: 60px;
+  height: 60px;
+  background-color: #0b1426;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sec1 .sec1_tab .tab_box #last,
+.sec1 .sec1_tab .tab_box #good {
+  border-width: 0;
+  border-color: unset;
+  background-color: unset;
+  width: 220px;
+  height: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: "Noto Sans KR", sans-serif;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sec1 .sec1_tab .tab_box #last:hover,
+.sec1 .sec1_tab .tab_box #good:hover {
+  overflow: unset;
+}
+.sec1 .sec1_tab .tab_box #last .first,
+.sec1 .sec1_tab .tab_box #good .first {
+  font-size: 0.937rem;
+  color: white;
+  position: relative;
+  padding-left: 20px;
+}
+.sec1 .sec1_tab .tab_box #last .first:after,
+.sec1 .sec1_tab .tab_box #good .first:after {
+  content: url(/grace/gracepc/sub1/img/select_btn.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 20px;
+}
+.sec1 .sec1_tab .tab_box #last .option,
+.sec1 .sec1_tab .tab_box #good .option {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+.sec1 .sec1_tab .tab_box #last .option li,
+.sec1 .sec1_tab .tab_box #good .option li {
+  background-color: white;
+  color: #000000;
+  height: 40px;
+  border: 1px solid #e5e5e5;
+  border-top: 0;
+  display: flex;
+  align-items: center;
+}
+.sec1 .sec1_tab .tab_box #last .option li a,
+.sec1 .sec1_tab .tab_box #good .option li a {
+  font-size: 0.937rem;
+  color: black;
+  z-index: 11;
+  padding-left: 20px;
+}
+.sec1 .sec1_tab .tab_box #last .option li a:after,
+.sec1 .sec1_tab .tab_box #good .option li a:after {
+  content: url(grace/gracepc/sub1/img/select_btn.png);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.sec1 .sec1_tab .tab_box #last .option li:hover,
+.sec1 .sec1_tab .tab_box #good .option li:hover {
+  background-color: #f5f5f5;
+}
+.sec1 .sec1_tab .tab_box #last .option li:hover a,
+.sec1 .sec1_tab .tab_box #good .option li:hover a {
+  color: #b59a80;
+}
+.sec1 .sec1_tab .layer {
+  text-align: center;
+}
+.sec1 .sec1_tab .layer .sub_img {
+  padding-top: 120px;
+}
+.sec1 .sec1_tab .layer .btInfo {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 78px;
+  margin: 60px 0 120px;
+  padding: 40px 35px;
+  display: flex;
+}
+.sec1 .sec1_tab .layer .btInfo .infoLeft {
+  display: flex;
+  align-items: center;
+}
+.sec1 .sec1_tab .layer .btInfo .infoTxt {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 30px;
+}
+.sec1 .sec1_tab .layer .btInfo .infoTxt p {
+  font-size: 0.812rem;
+  color: #999999;
+}
+
+footer {
+  padding: 50px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  border-top: 1px solid #e5e5e5;
+  max-width: 1820px;
+  min-width: 1400px;
+  margin: 0 auto;
+}
+footer .foot_left p,
+footer .foot_left span {
+  font-size: 0.75rem;
+  color: #999999;
+}
+footer .foot_left .f_txt1 {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+}
+footer .foot_left .f_txt1 p {
+  font-weight: 600;
+}
+footer .foot_left .f_txt2 {
+  color: #aaaaaa;
+  padding-bottom: 30px;
+}
+footer .foot_left .f_txt3 {
+  color: #aaaaaa;
+  padding-bottom: 20px;
+}
+footer .foot_left .f_txt4 p {
+  color: #aaaaaa;
+}
+footer .foot_left .f_txt4 .f_txt5 {
+  padding-bottom: 10px;
+}
+footer .foot_right {
+  display: flex;
+  align-items: center;
+}
+footer .foot_right .asia,
+footer .foot_right .buone,
+footer .foot_right .dev {
+  display: flex;
+  align-items: center;
+}
+footer .foot_right .asia p,
+footer .foot_right .buone p,
+footer .foot_right .dev p {
+  font-size: 0.937rem;
+  color: #999999;
+}
+footer .foot_right .asia,
+footer .foot_right .buone {
+  padding-right: 50px;
+}
+footer .foot_right .asia p,
+footer .foot_right .buone p {
+  padding-right: 10px;
+}
+footer .foot_right .dev p {
+  padding-right: 10px;
+}/*# sourceMappingURL=sub1.css.map */

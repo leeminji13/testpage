@@ -1,0 +1,57 @@
+/* 나눔바른고딕옛한글 */
+@font-face {
+    font-display: block; 
+    font-family: 'NanumYet';
+    src: url('../font/NanumBarunGothic-YetHangul.eot');
+    src: url('../font/NanumBarunGothic-YetHangul.eot?#iefix') format("embedded-opentype"),
+         url('../font/NanumBarunGothic-YetHangul.woff2') format("woff2"), 
+         url('../font/NanumBarunGothic-YetHangul.woff') format("woff"), 
+         url('../font/NanumBarunGothic-YetHangul.ttf') format("truetype");
+}
+/* 나눔명조옛한글 */
+@font-face {
+    font-display: block; 
+    font-family: 'NanumMyeongjoYet';
+    src: url('../font/NanumMyeongjo-YetHangul.eot');
+    src: url('../font/NanumMyeongjo-YetHangul.eot?#iefix') format("embedded-opentype"), 
+         url('../font/NanumMyeongjo-YetHangul.woff2') format("woff2"), 
+         url('../font/NanumMyeongjo-YetHangul.woff') format("woff"), 
+         url('../font/NanumMyeongjo-YetHangul.ttf') format("truetype");
+}
+/* 나눔바른고딕 */
+@font-face {
+    font-display: block; 
+    font-family: 'NanumBarunGothic';
+    src: url(../font/NanumBarunGothicWeb.eot);
+    src: url(../font/NanumBarunGothicWeb.eot?#iefix) format("embedded-opentype"), 
+    url(../font/NanumBarunGothicWeb.woff) format("woff"), 
+    url(../font/NanumBarunGothicWeb.ttf) format("truetype");
+}
+
+@font-face {
+    font-display: block; 
+    font-family: 'NanumBareunGothicLight';
+    src: url(../font/NanumBarunGothicWebLight.eot);
+    src: url(../font/NanumBarunGothicWebLight.eot?#iefix) format("embedded-opentype"), 
+    url(../font/NanumBarunGothicWebLight.woff) format("woff"), 
+    url(../font/NanumBarunGothicWebLight.ttf) format("truetype");
+}
+
+@font-face {
+    font-display: block; 
+    font-family: 'NanumBarunGothicBold';
+    src: url(../font/NanumBarunGothicWebBold.eot);
+    src: url(../font/NanumBarunGothicWebBold.eot?#iefix) format("embedded-opentype"), 
+    url(../font/NanumBarunGothicWebBold.woff) format("woff"), 
+    url(../font/NanumBarunGothicWebBold.ttf) format("truetype");
+}
+
+/* 구글폰트 */
+/* font-family: 'Noto Serif Gujarati', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@100;200;400;500&display=swap');
+/* font-family: 'Noto Sans KR', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+/* font-family: 'Noto Serif KR', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;500;600&display=swap');
+/* font-family: 'Roboto', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200;300;500;600&family=Roboto:wght@100;300;400&display=swap');
