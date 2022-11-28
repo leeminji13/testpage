@@ -163,7 +163,6 @@
 }
 
 .mainWrap {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
   z-index: -1;
@@ -567,8 +566,6 @@
   font-size: 1.5rem !important;
   font-weight: 600 !important;
   position: relative;
-  width: -webkit-fit-content !important;
-  width: -moz-fit-content !important;
   width: fit-content !important;
   margin-bottom: 60px;
 }
@@ -1266,8 +1263,6 @@
   font-weight: 600;
   line-height: 1.421em;
   color: #006b8e;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-family: "Noto Serif KR", serif;
   position: relative;
@@ -1763,8 +1758,7 @@
   border-width: 1px;
   border-style: unset;
   border-color: unset;
-  -o-border-image: unset;
-     border-image: unset;
+  border-image: unset;
   box-shadow: 10px 10px 24px #6e6e6e;
   -webkit-appearance: none;
   line-height: 120px;
@@ -1880,14 +1874,10 @@ footer .copyright {
   right: 0;
   bottom: 0;
   background-color: white;
-  -webkit-animation-name: opacity;
-          animation-name: opacity;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  animation-name: opacity;
+  animation-delay: 2s;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
   z-index: 11111;
 }
 .intro .introTxt {
@@ -1899,8 +1889,6 @@ footer .copyright {
 }
 .intro .introTxt p {
   font-family: "NanumBarunGothicBold";
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
   width: fit-content;
   font-size: 3.125em;
   font-weight: 600;
@@ -1920,14 +1908,10 @@ footer .copyright {
 }
 .intro .introTxt .intTxtTop,
 .intro .introTxt .intTxtBottom {
-  -webkit-animation-name: intTxtMove;
-          animation-name: intTxtMove;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-name: intTxtMove;
+  animation-duration: 1.5s;
 }
 .intro .introTxt .intTxtMiddle {
-  -webkit-animation-name: intTxtMove2;
-          animation-name: intTxtMove2;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-name: intTxtMove2;
+  animation-duration: 1.5s;
 }/*# sourceMappingURL=minji.css.map */

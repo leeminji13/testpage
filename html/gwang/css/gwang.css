@@ -294,8 +294,7 @@
 .container .sec1 .mainBg .bg .main_txt_top {
   padding-top: 230px;
   opacity: 0;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec1 .mainBg .bg .main_txt_top {
@@ -340,10 +339,8 @@
   font-weight: 500;
   line-height: 6.875rem;
   transform: translateY(100%);
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec1 .mainBg .bg .main_txt_big p {
@@ -365,10 +362,8 @@
   font-size: 1.875rem;
   font-family: "Noto Serif KR", serif;
   transform: translateY(100%);
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
-  -webkit-animation-duration: 1.5s;
-          animation-duration: 1.5s;
+  animation-delay: 1.5s;
+  animation-duration: 1.5s;
 }
 @media (max-width: 719px) {
   .container .sec1 .mainBg .bg .main_txt_sm p {
@@ -397,8 +392,7 @@
 }
 .container .sec2 .pro_vd .wrap .pro_txt_top .enSub {
   margin-right: 30px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec2 .pro_vd .wrap .pro_txt_top .enSub {
@@ -413,10 +407,8 @@
   color: white;
   font-weight: 300;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec2 .pro_vd .wrap .pro_txt_md p {
@@ -435,10 +427,8 @@
 }
 .container .sec2 .pro_vd .wrap .pro_txt_bt img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 .container #video1 .vd_wrap,
 .container #video2 .vd_wrap,
@@ -460,8 +450,7 @@
   width: 100%;
   height: 720px;
   position: relative;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container #video1 .vd_wrap .mask_img,
@@ -497,12 +486,10 @@
   }
 }
 .container #video1 .vd_wrap .mask_img {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 .container #video2 .vd_wrap .mask_img {
-  -webkit-animation-delay: 1.5s;
-          animation-delay: 1.5s;
+  animation-delay: 1.5s;
   height: 1275px;
 }
 @media (max-width: 719px) {
@@ -534,8 +521,7 @@
 .container .sec3 .gmxi .gmxi_txt .gmxi_txt_top .enSub {
   color: #a98157;
   margin-left: 30px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec3 .gmxi .gmxi_txt .gmxi_txt_top .enSub {
@@ -554,8 +540,7 @@
 }
 .container .sec3 .gmxi .gmxi_txt .gmxi_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
   transition-delay: 1s;
 }
 .container .sec3 .gmxi .gmxi_img {
@@ -571,17 +556,13 @@
   }
 }
 .container .sec3 .gmxi .gmxi_img .mask {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 .container .sec3 .gmxi .gmxi_img img {
   height: 540px;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
   transform: translateY(-100%);
 }
 @media (max-width: 719px) {
@@ -634,10 +615,8 @@
 .container .sec3 .gmxi .gmxi_txt2 .gm_park .gmSub img,
 .container .sec3 .gmxi .gmxi_txt2 .gm_life .gmSub img {
   transform: translateY(100%);
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-delay: 2s;
+  animation-duration: 0.8s;
 }
 .container .sec3 .gmxi .gmxi_txt2 .gm_traffic .gmCon,
 .container .sec3 .gmxi .gmxi_txt2 .gm_school .gmCon,
@@ -672,10 +651,8 @@
   font-size: 1.75rem;
   font-weight: 300;
   transform: translateY(100%);
-  -webkit-animation-delay: 2.5s;
-          animation-delay: 2.5s;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-delay: 2.5s;
+  animation-duration: 0.8s;
   letter-spacing: -2px;
   line-height: 1.2;
 }
@@ -763,8 +740,7 @@
   color: #151a20;
   margin-right: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec4 .gmxi2 .gmxi_txt2 .gmxi2_txt_top .enSub {
@@ -781,10 +757,8 @@
 }
 .container .sec4 .gmxi2 .gmxi_txt2 .gmxi2_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container .sec4 .gmxi2 .gmxi_img2 {
   margin-right: 40px;
@@ -797,25 +771,19 @@
   }
 }
 .container .sec4 .gmxi2 .gmxi_img2 .mask {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 .container .sec4 .gmxi2 .gmxi_img2 img {
   transform: translateY(-101%);
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 .container .sec4 .gmxi2 .table_wrap {
   padding-right: 40px;
   opacity: 0;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
+  animation-duration: 1s;
+  animation-delay: 2s;
 }
 @media (max-width: 719px) {
   .container .sec4 .gmxi2 .table_wrap {
@@ -914,8 +882,7 @@
 }
 .container .sec7 .wrap .club_txt .club_txt_top .enSub {
   margin-left: 30px;
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec7 .wrap .club_txt .club_txt_top .enSub {
@@ -932,10 +899,8 @@
 }
 .container .sec7 .wrap .club_txt .club_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container .sec7 .wrap .club_txt .club_txt_bt {
   text-align: right;
@@ -948,10 +913,8 @@
   color: white;
   font-weight: 300;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 @media (max-width: 719px) {
   .container .sec7 .wrap .club_txt .club_txt_bt .club_intxt p {
@@ -961,10 +924,8 @@
 .container .sec7 .wrap .club_slide {
   padding-left: 40px;
   opacity: 0;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec7 .wrap .club_slide {
@@ -972,8 +933,6 @@
   }
 }
 .container .sec7 .wrap .club_slide #clubXian .swiper-wrapper .swiper-slide {
-  width: -webkit-fit-content !important;
-  width: -moz-fit-content !important;
   width: fit-content !important;
   margin-right: 60px;
 }
@@ -1026,8 +985,7 @@
   color: #151a20;
   margin-right: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec8 .wrap .unit_txt .unit_txt_top .enSub {
@@ -1051,10 +1009,8 @@
   color: #151a20;
   font-weight: 300;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec8 .wrap .unit_txt .unit_txt_md p {
@@ -1073,18 +1029,14 @@
 }
 .container .sec8 .wrap .unit_txt .unit_txt_bt img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 .container .sec8 .wrap .unit_tab {
   padding-right: 40px;
   opacity: 0;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec8 .wrap .unit_tab {
@@ -1185,8 +1137,7 @@
 .container .sec9 .wrap .sche_txt .enSub {
   margin-left: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec9 .wrap .sche_txt .enSub {
@@ -1198,10 +1149,8 @@
   text-align: center;
   margin-left: 40px;
   opacity: 0;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 0.5s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec9 .wrap .sche {
@@ -1227,8 +1176,7 @@
   color: #151a20;
   margin-right: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec10 .wrap .brand_txt .brand_txt_top .enSub {
@@ -1263,10 +1211,8 @@
 }
 .container .sec10 .wrap .brand_txt .brand_txt_wrap .brand_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container .sec10 .wrap .brand_txt .brand_txt_wrap .brand_txt_bt .b_txt_in {
   overflow: hidden;
@@ -1276,10 +1222,8 @@
   color: #757575;
   font-weight: 300;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 1s;
 }
 @media (max-width: 719px) {
   .container .sec10 .wrap .brand_txt .brand_txt_wrap .brand_txt_bt .b_txt_in p {
@@ -1291,10 +1235,8 @@
   font-weight: 600;
   position: relative;
   opacity: 0;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec10 .wrap .brand_txt .brand_txt_wrap .brand_txt_bt2 p {
@@ -1330,17 +1272,13 @@
   }
 }
 .container .sec10 .wrap .brand_img .mask {
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 2s;
+  animation-duration: 1s;
 }
 .container .sec10 .wrap .brand_img img {
   transform: translateY(-100%);
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 2s;
+  animation-duration: 1s;
 }
 .container .sec11 {
   background-image: url(/gwang/img/bg/brand2_bg3.png);
@@ -1369,8 +1307,7 @@
   color: #151a20;
   margin-left: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec11 .wrap .brand2_txt .brand2_txt_top .enSub {
@@ -1387,10 +1324,8 @@
 }
 .container .sec11 .wrap .brand2_txt .brand2_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container .sec11 .wrap #video3 {
   margin-left: 40px;
@@ -1403,17 +1338,13 @@
   }
 }
 .container .sec11 .wrap #video3 .mask {
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 .container .sec11 .wrap #video3 .vd3_wrap {
   transform: translateY(-100%);
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
+  animation-duration: 1s;
+  animation-delay: 1s;
 }
 .container .sec11 .wrap #video3 .vd3_wrap .mask_img {
   background-image: url(/gwang/img/icon/brand2_vd.png);
@@ -1450,8 +1381,7 @@
 .container .sec12 .wrap .loca_txt .loca_txt_top .enSub {
   margin-right: 30px;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec12 .wrap .loca_txt .loca_txt_top .enSub {
@@ -1468,10 +1398,8 @@
 }
 .container .sec12 .wrap .loca_txt .loca_txt_md img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 .container .sec12 .wrap .loca_map {
   margin-right: 40px;
@@ -1484,25 +1412,19 @@
   }
 }
 .container .sec12 .wrap .loca_map .mask {
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 .container .sec12 .wrap .loca_map img {
   transform: translateY(-100%);
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 .container .sec12 .wrap .loca_btn {
   padding-right: 40px;
   opacity: 0;
-  -webkit-animation-delay: 2s;
-          animation-delay: 2s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 2s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec12 .wrap .loca_btn {
@@ -1668,8 +1590,7 @@
 }
 .container .sec13 .wrap .sign_txt .sign_txt_top img {
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
+  animation-duration: 0.5s;
 }
 .container .sec13 .wrap .sign_txt .sign_txt_md {
   display: flex;
@@ -1686,10 +1607,8 @@
   font-size: 1.5rem;
   font-weight: 100;
   transform: translateY(100%);
-  -webkit-animation-duration: 0.5s;
-          animation-duration: 0.5s;
-  -webkit-animation-delay: 0.5s;
-          animation-delay: 0.5s;
+  animation-duration: 0.5s;
+  animation-delay: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec13 .wrap .sign_txt .sign_txt_md p {
@@ -1703,10 +1622,8 @@
   text-align: center;
   margin-top: 50px;
   opacity: 0;
-  -webkit-animation-delay: 1s;
-          animation-delay: 1s;
-  -webkit-animation-duration: 1s;
-          animation-duration: 1s;
+  animation-delay: 1s;
+  animation-duration: 1s;
 }
 @media (max-width: 719px) {
   .container .sec13 .wrap form {

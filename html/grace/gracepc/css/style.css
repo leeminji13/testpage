@@ -179,7 +179,7 @@ body {
 }
 .container .sec1 .head_wrap .header {
   max-width: 1820px;
-  min-width: 1100px;
+  min-width: 1400px;
   margin: 0 auto;
   padding: 0 50px;
   background-color: #000000;
@@ -464,11 +464,12 @@ body {
   padding-top: 10px;
 }
 .container footer {
+  max-width: 1820px;
+  min-width: 1400px;
   padding: 50px;
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 1820px;
   margin: 0 auto;
 }
 .container footer .foot_left p,
@@ -491,11 +492,6 @@ body {
 .container footer .foot_left .f_txt3 {
   color: #aaaaaa;
   padding-bottom: 20px;
-}
-@media (max-width: 1919px) {
-  .container footer .foot_left .f_txt3 {
-    padding-bottom: 1vw;
-  }
 }
 .container footer .foot_left .f_txt4 p {
   color: #aaaaaa;

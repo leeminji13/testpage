@@ -6,7 +6,7 @@ $(function(){
     $sec2.find('.main_right > img').addClass('img_right');
 
     $(window).scroll(function(){
-        var $offset = 350; 
+        var $offset = 400; 
 
         var $main_txt = $('.main_txt')
         var $main_txtOST = $main_txt.offset().top - $offset
