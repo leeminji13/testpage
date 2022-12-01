@@ -15,6 +15,13 @@
   }
   .container .sec1 .header {
     background-color: #000000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    max-width: 720px;
+    margin: 0 auto;
+    z-index: 111;
   }
   .container .sec1 .header .head_wrap {
     padding: 46px 30px;
@@ -758,6 +765,12 @@
     background-position: top left;
     background-repeat: no-repeat;
     background-size: 100%;
+    margin-top: 140px;
+  }
+  @media (max-width: 719px){
+    .container .sec2{
+      margin-top: 19.4vw;
+    }
   }
   .container .sec2 .inner {
     padding: 0 30px;
