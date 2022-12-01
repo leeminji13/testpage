@@ -105,7 +105,6 @@
   }
   @media (max-width: 719px) {
     .container .sec1 .header .head_wrap .d1ulWrap #d1ul {
-      width: 0;
       padding-top: 19.5vw;
     }
   }
