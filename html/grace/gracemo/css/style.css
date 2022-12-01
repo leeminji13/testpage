@@ -561,7 +561,7 @@
 }
 .container .sec1 .main .main_open_img img {
   opacity: 0;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_open_img img {
@@ -582,7 +582,7 @@
 }
 .container .sec1 .main .main_txt2 .txt2_top img {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_txt2 .txt2_top img {
@@ -595,7 +595,7 @@
 }
 .container .sec1 .main .txt2_top2 img {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-delay: 0.3s;
 }
 @media (max-width: 719px) {
@@ -638,7 +638,7 @@
 .container .sec1 .main .main_icon .icon_flex .icon1 .img1 img,
 .container .sec1 .main .main_icon .icon_flex .icon2 .img1 img {
   opacity: 0;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_icon .icon_flex .icon1 .img1 img,
@@ -649,7 +649,7 @@
 .container .sec1 .main .main_icon .icon_flex .icon1 .img2 img,
 .container .sec1 .main .main_icon .icon_flex .icon2 .img2 img {
   opacity: 0;
-  animation-duration: 1s;
+  animation-duration: 0.5s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_icon .icon_flex .icon1 .img2 img,
@@ -662,8 +662,8 @@
 .container .sec1 .main .main_icon .icon_flex .icon2 .img3 img,
 .container .sec1 .main .main_icon .icon_flex .icon2 .img4 img {
   opacity: 0;
-  animation-duration: 1s;
-  animation-delay: 1s;
+  animation-duration: 0.5s;
+  animation-delay: 0.6s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_icon .icon_flex .icon1 .img3 img,
@@ -684,7 +684,7 @@
   color: white;
   padding-top: 62px;
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_icon .icon_flex .icon1 .icon_sub p,
@@ -705,7 +705,7 @@
   line-height: 1.4;
   font-weight: 300;
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_icon .icon_flex .icon1 .icon_con p,
@@ -729,7 +729,7 @@
 .container .sec1 .main .main_icon .icon_flex .icon1 .icon_con2 p,
 .container .sec1 .main .main_icon .icon_flex .icon2 .icon_sub2 p,
 .container .sec1 .main .main_icon .icon_flex .icon2 .icon_con2 p {
-  animation-delay: 1s;
+  animation-delay: 0.6s;
 }
 .container .sec1 .main .main_map {
   padding: 100px 30px 0;
@@ -741,7 +741,7 @@
 }
 .container .sec1 .main .main_map .map_img img {
   opacity: 0;
-  animation-duration: 1s;
+  animation-duration: 0.6s;
   box-shadow: 0px 17px 24px #a7a7a7;
 }
 .container .sec1 .main .main_map .map_more {
@@ -753,8 +753,8 @@
   align-items: center;
   justify-content: center;
   opacity: 0;
-  animation-duration: 0.5s;
-  animation-delay: 0.5s;
+  animation-duration: 0.3s;
+  animation-delay: 0.3s;
 }
 @media (max-width: 719px) {
   .container .sec1 .main .main_map .map_more {
@@ -795,7 +795,7 @@
 .container .sec2 .point .logo_red img {
   width: 379px;
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
 }
 @media (max-width: 719px) {
   .container .sec2 .point .logo_red img {
@@ -814,7 +814,7 @@
 .container .sec2 .point .big_txt img {
   width: 518px;
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-delay: 0.3s;
 }
 @media (max-width: 719px) {
@@ -833,8 +833,8 @@
 }
 .container .sec2 .point .point_box img {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.8s;
+  animation-duration: 0.3s;
+  animation-delay: 0.6s;
 }
 .container .sec2 .premium {
   padding: 140px 0 140px 30px;
@@ -849,7 +849,7 @@
 }
 .container .sec2 .premium .pre_logo img {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   width: 379px;
 }
 @media (max-width: 719px) {
@@ -868,7 +868,7 @@
 }
 .container .sec2 .premium .pre_big img {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-delay: 0.3s;
   width: 568px;
 }
@@ -880,8 +880,8 @@
 .container .sec2 .premium .pre_slide {
   margin-top: 100px;
   opacity: 0;
-  animation-duration: 1s;
-  animation-delay: 0.8s;
+  animation-duration: 0.5s;
+  animation-delay: 0.6s;
 }
 @media (max-width: 719px) {
   .container .sec2 .premium .pre_slide {
@@ -939,8 +939,8 @@
 }
 @media (max-width: 719px) {
   .container .sec2 .premium .pre_slide .swiper-wrapper .swiper-slide .slide_txt .slide_con .con1 p {
-    font-size: 4vw;
-    letter-spacing: -0.3vw;
+    font-size: 3.8vw;
+    letter-spacing: -0.4vw;
   }
 }
 .container .sec2 .premium .pre_slide .swiper-wrapper .swiper-slide .slide_txt .slide_con .con1 p span {
@@ -952,6 +952,8 @@
 @media (max-width: 719px) {
   .container .sec2 .premium .pre_slide .swiper-wrapper .swiper-slide .slide_txt .slide_con .con1 p span {
     margin-right: 1.4vw;
+    width: 0.8vw;
+    height: 0.8vw;
   }
 }
 .container .sec2 .premium .pre_slide .swiper-wrapper .swiper-slide .slide_txt .slide_con .con1pd {
@@ -1035,7 +1037,7 @@
 }
 .container .sec3 .waytxt .way_sub p {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   font-size: 3.5rem;
   font-weight: 600;
 }
@@ -1050,7 +1052,7 @@
 }
 .container .sec3 .waytxt .way_con p {
   transform: translateY(100%);
-  animation-duration: 0.5s;
+  animation-duration: 0.3s;
   animation-delay: 0.3s;
   font-size: 2.215rem;
 }

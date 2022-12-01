@@ -16,9 +16,6 @@ body {
   justify-content: center;
   display: none;
 }
-.popup_img .popImg {
-  line-height: 0;
-}
 .popup_img .popImg img {
   max-width: unset;
 }
@@ -221,7 +218,8 @@ body {
 }
 .container .sec2 .mian_wrap .main_left .main_txt1 img {
   transform: translateY(105%);
-  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 .container .sec2 .mian_wrap .main_left .main_box {
   margin: 40px 0;
@@ -229,23 +227,29 @@ body {
 }
 .container .sec2 .mian_wrap .main_left .main_box img {
   transform: translateY(105%);
-  animation-duration: 1s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .mian_wrap .main_left iframe {
   width: 469px;
   height: 264px;
   opacity: 0;
-  animation-duration: 1s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .mian_wrap .main_right {
   overflow: hidden;
 }
 .container .sec2 .mian_wrap .main_right img {
   max-width: unset;
-  animation-duration: 1s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   transform: translateX(-100%);
 }
 .container .sec2 .main_txt {
@@ -257,7 +261,8 @@ body {
 }
 .container .sec2 .main_txt .m_txt_top img {
   transform: translateY(105%);
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec2 .main_txt .m_txt_md {
   padding-top: 20px;
@@ -269,8 +274,10 @@ body {
   color: white;
   font-weight: 300;
   transform: translateY(105%);
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .main_txt .m_icon {
   padding-top: 82px;
@@ -279,8 +286,10 @@ body {
 }
 .container .sec2 .main_txt .m_icon img {
   transform: translateY(105%);
-  animation-duration: 0.6s;
-  animation-delay: 0.6s;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 .container .sec2 .main_txt .m_map {
   margin-top: 60px;
@@ -291,8 +300,10 @@ body {
 }
 .container .sec2 .main_txt .m_map img {
   transform: translateY(-100%);
-  animation-duration: 0.3s;
-  animation-delay: 1s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 .container .sec2 .main_txt .m_map .m_map_btn {
   margin-top: 60px;
@@ -322,7 +333,8 @@ body {
 }
 .container .sec3 .sec3_logo img {
   transform: translateY(105%);
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec3 .sec3_txt {
   padding-top: 18px;
@@ -330,8 +342,10 @@ body {
 }
 .container .sec3 .sec3_txt img {
   transform: translateY(105%);
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec3 .sec3_box {
   margin-top: 40px;
@@ -339,8 +353,10 @@ body {
 }
 .container .sec3 .sec3_box img {
   transform: translateY(-100%);
-  animation-duration: 0.3s;
-  animation-delay: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec4 {
   height: 1057px;
@@ -354,7 +370,8 @@ body {
 }
 .container .sec4 .inner .sec4_logo img {
   transform: translateY(-100%);
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec4 .inner .sec4_txt {
   margin-top: 10px;
@@ -362,8 +379,10 @@ body {
 }
 .container .sec4 .inner .sec4_txt img {
   transform: translateY(-100%);
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec4 .inner .swipe_wrap {
   position: absolute;
@@ -374,10 +393,14 @@ body {
 .container .sec4 .inner .swipe_wrap #sec4_slide {
   margin-top: 60px;
   opacity: 0;
-  animation-duration: 0.3s;
-  animation-delay: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec4 .inner .swipe_wrap #sec4_slide .swiper-wrapper .swiper-slide {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
   width: fit-content !important;
   padding-right: 50px;
 }
@@ -389,6 +412,8 @@ body {
 .container .sec4 .inner .swipe_wrap #sec4_slide .slide_btn .swiper-pagination {
   position: relative;
   bottom: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 0.875rem;
   letter-spacing: -2px;
@@ -438,7 +463,8 @@ body {
   font-size: 2.875rem;
   font-weight: 600;
   transform: translateY(105%);
-  animation-duration: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec5 .sec5_mdTxt {
   text-align: center;
@@ -447,8 +473,10 @@ body {
 }
 .container .sec5 .sec5_mdTxt img {
   transform: translateY(105%);
-  animation-duration: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec5 .way_map {
   display: flex;
@@ -460,8 +488,10 @@ body {
 .container .sec5 .way_map .yongin,
 .container .sec5 .way_map .bundang {
   transform: translateY(-100%);
-  animation-duration: 0.3s;
-  animation-delay: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec5 .way_map .yongin .y_txt,
 .container .sec5 .way_map .yongin .b_txt,
@@ -529,4 +559,4 @@ body {
 }
 .container footer .foot_right .dev p {
   padding-right: 10px;
-}/*# sourceMappingURL=style.css.map */
+}
