@@ -80,6 +80,9 @@ body {
   display: flex;
 }
 
+#gnb {
+  z-index: 111;
+}
 #gnb .d1ul {
   display: flex;
   align-items: center;
@@ -187,6 +190,7 @@ body {
   align-items: center;
   justify-content: space-between;
   height: 80px;
+  position: relative;
 }
 .container .sec1 .head_wrap .header .logo a img {
   max-width: unset;
@@ -213,33 +217,39 @@ body {
   overflow: hidden;
 }
 .container .sec2 .mian_wrap .main_left .main_txt1 img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
 }
 .container .sec2 .mian_wrap .main_left .main_box {
   margin: 40px 0;
   overflow: hidden;
 }
 .container .sec2 .mian_wrap .main_left .main_box img {
-  transform: translateY(100%);
-  animation-duration: 1s;
-  animation-delay: 1s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .mian_wrap .main_left iframe {
   width: 469px;
   height: 264px;
   opacity: 0;
-  animation-duration: 1s;
-  animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .mian_wrap .main_right {
   overflow: hidden;
 }
 .container .sec2 .mian_wrap .main_right img {
   max-width: unset;
-  animation-duration: 1s;
-  animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
   transform: translateX(-100%);
 }
 .container .sec2 .main_txt {
@@ -250,8 +260,9 @@ body {
   overflow: hidden;
 }
 .container .sec2 .main_txt .m_txt_top img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec2 .main_txt .m_txt_md {
   padding-top: 20px;
@@ -262,9 +273,11 @@ body {
   font-size: 1.5rem;
   color: white;
   font-weight: 300;
-  transform: translateY(100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec2 .main_txt .m_icon {
   padding-top: 82px;
@@ -272,9 +285,11 @@ body {
   overflow: hidden;
 }
 .container .sec2 .main_txt .m_icon img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.6s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-delay: 0.6s;
+          animation-delay: 0.6s;
 }
 .container .sec2 .main_txt .m_map {
   margin-top: 60px;
@@ -285,8 +300,10 @@ body {
 }
 .container .sec2 .main_txt .m_map img {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
-  animation-delay: 1s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
 }
 .container .sec2 .main_txt .m_map .m_map_btn {
   margin-top: 60px;
@@ -315,17 +332,20 @@ body {
   overflow: hidden;
 }
 .container .sec3 .sec3_logo img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec3 .sec3_txt {
   padding-top: 18px;
   overflow: hidden;
 }
 .container .sec3 .sec3_txt img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec3 .sec3_box {
   margin-top: 40px;
@@ -333,8 +353,10 @@ body {
 }
 .container .sec3 .sec3_box img {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.6s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec4 {
   height: 1057px;
@@ -348,7 +370,8 @@ body {
 }
 .container .sec4 .inner .sec4_logo img {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec4 .inner .sec4_txt {
   margin-top: 10px;
@@ -356,8 +379,10 @@ body {
 }
 .container .sec4 .inner .sec4_txt img {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec4 .inner .swipe_wrap {
   position: absolute;
@@ -368,10 +393,14 @@ body {
 .container .sec4 .inner .swipe_wrap #sec4_slide {
   margin-top: 60px;
   opacity: 0;
-  animation-duration: 0.5s;
-  animation-delay: 0.6s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec4 .inner .swipe_wrap #sec4_slide .swiper-wrapper .swiper-slide {
+  width: -webkit-fit-content !important;
+  width: -moz-fit-content !important;
   width: fit-content !important;
   padding-right: 50px;
 }
@@ -383,6 +412,8 @@ body {
 .container .sec4 .inner .swipe_wrap #sec4_slide .slide_btn .swiper-pagination {
   position: relative;
   bottom: 0;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
   width: fit-content;
   font-size: 0.875rem;
   letter-spacing: -2px;
@@ -431,8 +462,9 @@ body {
 .container .sec5 .sec5_topTxt p {
   font-size: 2.875rem;
   font-weight: 600;
-  transform: translateY(100%);
-  animation-duration: 0.5s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
 }
 .container .sec5 .sec5_mdTxt {
   text-align: center;
@@ -440,9 +472,11 @@ body {
   overflow: hidden;
 }
 .container .sec5 .sec5_mdTxt img {
-  transform: translateY(100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.3s;
+  transform: translateY(105%);
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.3s;
+          animation-delay: 0.3s;
 }
 .container .sec5 .way_map {
   display: flex;
@@ -454,8 +488,10 @@ body {
 .container .sec5 .way_map .yongin,
 .container .sec5 .way_map .bundang {
   transform: translateY(-100%);
-  animation-duration: 0.5s;
-  animation-delay: 0.6s;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-delay: 0.5s;
+          animation-delay: 0.5s;
 }
 .container .sec5 .way_map .yongin .y_txt,
 .container .sec5 .way_map .yongin .b_txt,
@@ -471,6 +507,7 @@ body {
   align-items: flex-start;
   justify-content: space-between;
   margin: 0 auto;
+  border-top: 1px solid #e5e5e5;
 }
 .container footer .foot_left p,
 .container footer .foot_left span {
@@ -522,4 +559,4 @@ body {
 }
 .container footer .foot_right .dev p {
   padding-right: 10px;
-}/*# sourceMappingURL=style.css.map */
+}

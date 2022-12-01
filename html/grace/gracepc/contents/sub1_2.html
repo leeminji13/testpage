@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>서천역 더그레이스 경희 오시는길</title>
+    <link rel="stylesheet" href="/grace/gracepc/css/reset.css">
+    <link rel="stylesheet" href="/grace/gracepc/css/common.css">
+    <link rel="stylesheet" href="/grace/gracepc/sub1/css/sub1.min.css?ver<?php echo time()?>">
+    <link rel="stylesheet" href="/grace/gracepc/css/sub.css">
+
+    <script
+    src="https://code.jquery.com/jquery-2.2.4.min.js"
+    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+    crossorigin="anonymous"></script>
+    <script type="text/javascript">   
+        $(document).ready( function() {
+            $("#header").load("/grace/gracepc/contents/head.html");  // 원하는 파일 경로를 삽입하면 된다
+            $("#footer").load("/grace/gracepc/contents/footer.html");  // 추가 인클루드를 원할 경우 이런식으로 추가하면 된다
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div id="header"></div>
+        <div class="sec1">
+            <div class="inner">
+                <div class="sec1_top">
+                    <p class="top_txt1">사업안내</p>
+                    <p class="top_txt2">THE GRACE KYUNG HEE</p>
+                </div>
+                <div class="sec1_tab">
+                    <ul class="tab_box">
+                        <a href="http://leeminji13.dothome.co.kr/grace/gracepc">
+                            <li class="home_btn">
+                                <img src="/grace/gracepc/img/subimg/home_btn.png" alt="">
+                            </li>
+                        </a>
+                        <li id="last">
+                            <a class="first" href="/grace/gracepc/contents/sub1.html">사업안내</a>
+                            <ul class="option">
+                                <li><a href="/grace/gracepc/contents/sub1.html">사업안내</a></li>
+                                <li><a href="/grace/gracepc/contents/position.html">입지환경</a></li>
+                                <li><a href="/grace/gracepc/contents/sub2_2.html">프리미엄</a></li>
+                                <li><a href="/grace/gracepc/contents/sub3.html">세대정보</a></li>
+                                <li><a href="/grace/gracepc/contents/center.html">상가안내</a></li>
+                                <li><a href="/grace/gracepc/contents/sub4.html">관심고객</a></li>
+                            </ul>
+
+                        </li>
+                        <li id="good">
+                            <a class="first" href="/grace/gracepc/contents/sub1_2.html">오시는길</a>
+                            <ul class="option">
+                                <li><a href="/grace/gracepc/contents/sub1.html">사업개요</a></li>
+                                <li><a href="/grace/gracepc/contents/sub1_2.html">오시는길</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="layer suba1">
+                        <div class="sub_img sub1_2img">
+                            <img src="/grace/gracepc/img/subimg/suba2.png" alt="" usemap="#imgmap20221111101917">
+                        </div>
+                        <map id="imgmap20221111101917" name="imgmap20221111101917">
+                            <area shape="rect" alt="" title="" coords="651,449,892,496" href="https://naver.me/5vYBlAx2" target="_blank" />
+                            <area shape="rect" alt="" title="" coords="913,448,1152,497" href="http://kko.to/YWf8WhUhhe" target="_blank" />
+                            <area shape="rect" alt="" title="" coords="653,839,894,887" href="https://naver.me/GxRsS5AT" target="_blank" />
+                            <area shape="rect" alt="" title="" coords="913,837,1152,885" href="http://kko.to/UMv1XBVQ6q" target="_blank" />
+                        </map>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer"></footer>
+    </div>
+    
+    <script src="/grace/gracepc/sub1/js/sub1.js?ver<?php echo time()?>"></script>
+</body>
+</html>

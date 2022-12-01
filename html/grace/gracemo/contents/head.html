@@ -1,0 +1,172 @@
+
+    <div class="head_wrap">
+        <div id="menu" class="menu">
+            <div class="menuLine line1"></div>
+            <div class="menuLine mid_line"></div>
+            <div class="menuLine line2"></div>
+        </div>
+        <div class="d1ulWrap">
+            <ul id="d1ul" class="d1ul">
+                <li class="d1li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>사업안내</p>
+                        </a>
+                        <div class="open_btn">
+                           <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li d2li_bb">
+                            <a href="/grace/gracemo/contents/sub1.html">
+                                <p>사업개요</p>
+                            </a>
+                        </li>
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/sub1_2.html">
+                                <p>오시는길</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d1li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>입지환경</p>
+                        </a>
+                        <div class="open_btn">
+                           <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li d2li_bb">
+                            <a href="/grace/gracemo/contents/position.html">
+                                <p>입지환경</p>
+                            </a>
+                        </li>
+                        <li class="d2li d2li_bb">
+                            <a href="/grace/gracemo/contents/po_2.html">
+                                <p>배후수요</p>
+                            </a>
+                        </li>
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/po_3.html">
+                                <p>초역세권</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d1li pre_li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>프리미엄</p>
+                        </a>
+                        <div class="open_btn">
+                            <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/sub2_2.html">
+                                <p>프리미엄5</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d1li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>세대정보</p>
+                        </a>
+                        <div class="open_btn">
+                            <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li d2li_bb">
+                            <a href="/grace/gracemo/contents/sub3.html">
+                                <p>타입안내</p>
+                            </a>
+                        </li>
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/sub3_2.html">
+                                <p>인테리어</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d1li pre_li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>상가안내</p>
+                        </a>
+                        <div class="open_btn">
+                            <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/center.html">
+                                <p>프리미엄4</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="d1li">
+                    <div class="d1li_wrap">
+                        <span class="side_line"></span>
+                        <a class="d1a" href="#none">
+                            <p>관심고객</p>
+                        </a>
+                        <div class="open_btn">
+                            <img src="/grace/gracemo/img/content/d1li_btn.png" alt="">
+                        </div>
+                    </div>
+                    <ul class="d2ul">
+                        <li class="d2li d2li_bb">
+                            <a href="/grace/gracemo/contents/sub4.html">
+                                <p>관심고객등록</p>
+                            </a>
+                        </li>
+                        <li class="d2li">
+                            <a href="/grace/gracemo/contents/sub4_2.html">
+                                <p>언론보도</p>
+                            </a>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        
+        <div class="logo">
+            <a href="http://leeminji13.dothome.co.kr/grace/gracemo">
+                <img src="/grace/gracemo/img/content/logo_m.png" alt="">
+            </a>
+        </div>
+        <div class="call">
+            <a href="tel:031-717-5552">
+                <img src="/grace/gracemo/img/content/call.png" alt="">
+            </a>
+        </div>
+    </div>
+    <script>
+        $('#menu').click(function(){
+            $('.d1ulWrap').toggleClass('menuOpen')
+            $('.d1a').toggleClass('txt_up')
+            $('.menuLine').toggleClass('lineAbs')
+            $('.line1').toggleClass('lineRo45')
+            $('.mid_line').toggleClass('lineNone')
+            $('.line2').toggleClass('lineRo_45')
+            $('.d1li').removeClass('d1li_open')
+        });
+        $('.d1li_wrap').click(function(){
+            $(this).find('.open_btn').toggleClass('opBtnDeg')
+            $(this).parents().siblings().removeClass('d1li_open')
+            $(this).parents().toggleClass('d1li_open')
+        });
+    </script>

@@ -6,7 +6,7 @@ $(function(){
     $sec2.find('.main_right > img').addClass('img_right');
 
     $(window).scroll(function(){
-        var $offset = 400; 
+        var $offset = 500; 
 
         var $main_txt = $('.main_txt')
         var $main_txtOST = $main_txt.offset().top - $offset
@@ -48,5 +48,17 @@ $(function(){
         $sec3OST = $sec3.offset().top - $offset;
         $sec4OST = $sec4.offset().top - $offset;
         $sec5OST = $sec5.offset().top - $offset;
+    });
+
+    $(document).ready(function(){ //타입안내 탭
+        $('ul.type_ul li').click(function(){
+            var tab_id = $(this).attr('data-tab');
+    
+            $('ul.type_ul li').removeClass('typeOn');
+            $('.type_img').removeClass('typeOn');
+    
+            $(this).addClass('typeOn');
+            $("#"+tab_id).addClass('typeOn');
+        });
     });
 });
