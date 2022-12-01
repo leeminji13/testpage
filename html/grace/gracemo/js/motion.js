@@ -9,7 +9,7 @@ $(function(){
     });
 
     $(window).scroll(function(){
-        var $offset = 200; 
+        var $offset = 350; 
 
         var $mainImg = $('.openImgWrap')
         var $mainImgOST = $mainImg.offset().top - $offset
