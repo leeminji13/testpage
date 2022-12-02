@@ -11,9 +11,9 @@
     <!-- 구글폰트 -->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&family=Noto+Serif+KR:wght@200;300;500;600&family=Roboto:wght@100;300;400;500&display=swap" rel="stylesheet">
     
-    <link rel="stylesheet" href="/grace/gracemo/css/reset.css">
-    <link rel="stylesheet" href="/grace/gracemo/css/common.css">
-    <link rel="stylesheet" href="/grace/gracemo/css/style.min.css?ver<?php echo time()?>">
+    <link rel="stylesheet" href="/grace/css/reset.css">
+    <link rel="stylesheet" href="/grace/css/common.css">
+    <link rel="stylesheet" href="/grace/css/gracemo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
@@ -27,9 +27,9 @@
             $("#footer").load("/grace/gracemo/contents/footer.html"); 
         });
     </script>
-    <script>
+    <!-- <script>
         window.history.pushState(null, null, "/grace");
-    </script>
+    </script> -->
 </head>
 <body>
     <div class="popup_img">
@@ -37,16 +37,16 @@
             <div id="pop_swiper" class="pop_swiper swiper mySwiper">
                 <div class="swiper-wrapper">
                     <div class="swiper-slide">
-                        <img src="/grace/gracemo/img/content/slideImg1.jpg" alt="">
+                        <img src="/grace/img/content/slideImg1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/grace/gracemo/img/content/mopopSlide1.jpg" alt="">
+                        <img src="/grace/img/content/mopopSlide1.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/grace/gracemo/img/content/mopopSlide2.jpg" alt="">
+                        <img src="/grace/img/content/mopopSlide2.jpg" alt="">
                     </div>
                     <div class="swiper-slide">
-                        <img src="/grace/gracemo/img/content/slideImg3.jpg" alt="">
+                        <img src="/grace/img/content/slideImg3.jpg" alt="">
                     </div>
                 </div>
                 <div class="swiper-pagination"></div>
@@ -71,13 +71,13 @@
             <div class="main">
                 <div class="main_txt">
                     <div class="main_top">
-                        <img src="/grace/gracemo/img/content/main_point.png" alt="">
+                        <img src="/grace/img/content/main_point.png" alt="">
                     </div>
                     <div class="main-mid">
-                        <img src="/grace/gracemo/img/content/main_box.png" alt="">
+                        <img src="/grace/img/content/main_box.png" alt="">
                     </div>
                 </div>
-                <div class="openImgWrap">
+                <div id="openImgWrap" class="openImgWrap">
                     <div class="vdWrap">
                         <iframe src="https://www.youtube.com/embed/loz3p045Fmo"
                             title="YouTube video player" frameborder="0" 
@@ -86,22 +86,22 @@
                         </iframe>
                     </div>
                     <div class="main_open_img">
-                        <img src="/grace/gracemo/img/content/mainImg.png" alt="">
+                        <img src="/grace/img/content/mainImg.png" alt="">
                     </div>
                 </div>
                 <div class="main_txt2 pt100">
                     <div class="txt2_top">
-                        <img src="/grace/gracemo/img/content/samsung.png" alt="">
+                        <img src="/grace/img/content/samsung.png" alt="">
                     </div>
                     <div class="txt2_top2 pt40">
-                        <img src="/grace/gracemo/img/content/sam_bot.png" alt="">
+                        <img src="/grace/img/content/sam_bot.png" alt="">
                     </div>
                 </div>
                 <div class="main_icon">
                     <div class="icon_flex">
                         <div class="icon1">
                             <div class="icon_img img1">
-                                <img src="/grace/gracemo/img/content/bus_m.png" alt="">
+                                <img src="/grace/img/content/bus_m.png" alt="">
                             </div>
                             <div class="icon_sub">
                                 <p>교통환경</p>
@@ -117,7 +117,7 @@
                         </div>
                         <div class="icon1">
                             <div class="icon_img img2">
-                                <img src="/grace/gracemo/img/content/store1201.png" alt="">
+                                <img src="/grace/img/content/store1201.png" alt="">
                             </div>
                             <div class="icon_sub">
                                 <p>생활편의</p>
@@ -135,7 +135,7 @@
                     <div class="icon_flex">
                         <div class="icon2">
                             <div class="icon_img img3">
-                                <img src="/grace/gracemo/img/content/vision_m.png" alt="">
+                                <img src="/grace/img/content/vision_m.png" alt="">
                             </div>
                             <div class="icon_sub icon_sub2">
                                 <p>투자비전</p>
@@ -152,7 +152,7 @@
                         </div>
                         <div class="icon2">
                             <div class="icon_img img4">
-                                <img src="/grace/gracemo/img/content/campers.png" alt="">
+                                <img src="/grace/img/content/campers.png" alt="">
                             </div>
                             <div class="icon_sub icon_sub2">
                                 <p>임대수요</p>
@@ -170,7 +170,7 @@
                 </div>
                 <div class="main_map">
                     <div class="map_img">
-                        <img src="/grace/gracemo/img/content/grace_map_m.png" alt="">
+                        <img src="/grace/img/content/grace_map_m.png" alt="">
                     </div>
                     <a href="https://map.naver.com/v5/search/%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EC%84%9C%EC%B2%9C%EB%8F%99%20815/address/14145609.659146432,4472098.2915427275,%EA%B2%BD%EA%B8%B0%EB%8F%84%20%EC%9A%A9%EC%9D%B8%EC%8B%9C%20%EA%B8%B0%ED%9D%A5%EA%B5%AC%20%EC%84%9C%EC%B2%9C%EB%8F%99%20815,jibun?c=14145509.5898210,4472102.6472995,16.95,0,0,0,dh&isCorrectAnswer=true" target="_blank">
                         <div class="map_more">
@@ -183,27 +183,27 @@
         <div class="sec2">
             <div class="point">
                 <div class="logo_red">
-                    <img src="/grace/gracemo/img/content/logo_r_m.png" alt="">
+                    <img src="/grace/img/content/logo_r_m.png" alt="">
                 </div>
                 <div class="big_txt">
-                    <img src="/grace/gracemo/img/content/sec2_bigtxt.png" alt="">
+                    <img src="/grace/img/content/sec2_bigtxt.png" alt="">
                 </div>
                 <div class="point_box">
-                    <img src="/grace/gracemo/img/content/poin_box.png" alt="">
+                    <img src="/grace/img/content/poin_box.png" alt="">
                 </div>
             </div>
             <div class="premium">
                 <div class="pre_logo">
-                    <img src="/grace/gracemo/img/content/logo_r_m.png" alt="">
+                    <img src="/grace/img/content/logo_r_m.png" alt="">
                 </div>
                 <div class="pre_big">
-                    <img src="/grace/gracemo/img/content/pre_big.png" alt="">
+                    <img src="/grace/img/content/pre_big.png" alt="">
                 </div>
                 <div id="md_sw" class="pre_slide swiper mySwiper">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
                             <div class="slide_img">
-                                <img src="/grace/gracemo/img/content/moslide1.png" alt="">
+                                <img src="/grace/img/content/moslide1.png" alt="">
                             </div>
                             <div class="slide_txt">
                                 <div class="slide_sub">
@@ -231,7 +231,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="slide_img">
-                                <img src="/grace/gracemo/img/content/moslide2.png" alt="">
+                                <img src="/grace/img/content/moslide2.png" alt="">
                             </div>
                             <div class="slide_txt">
                                 <div class="slide_sub">
@@ -259,7 +259,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="slide_img">
-                                <img src="/grace/gracemo/img/content/mo2slide_life.png" alt="">
+                                <img src="/grace/img/content/mo2slide_life.png" alt="">
                             </div>
                             <div class="slide_txt">
                                 <div class="slide_sub">
@@ -289,7 +289,7 @@
                         </div>
                         <div class="swiper-slide">
                             <div class="slide_img">
-                                <img src="/grace/gracemo/img/content/slideImg4.png" alt="">
+                                <img src="/grace/img/content/slideImg4.png" alt="">
                             </div>
                             <div class="slide_txt">
                                 <div class="slide_sub">
@@ -313,7 +313,7 @@
                         </div>
                         <div class="swiper-slide last-slide">
                             <div class="slide_img">
-                                <img src="/grace/gracemo/img/content/slideImg5.png" alt="">
+                                <img src="/grace/img/content/slideImg5.png" alt="">
                             </div>
                             <div class="slide_txt">
                                 <div class="slide_sub">
@@ -349,17 +349,17 @@
                     
                     <div class="swiper_btn">
                         <div class="swiper-button-prev">
-                            <img src="/grace/gracemo/img/content/slide_btn_pre.png" alt="">
+                            <img src="/grace/img/content/slide_btn_pre.png" alt="">
                         </div>
                         <div class="swiper-pagination"></div>
                         <div class="swiper-button-next">
-                            <img src="/grace/gracemo/img/content/slide_btn_next.png" alt="">
+                            <img src="/grace/img/content/slide_btn_next.png" alt="">
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="sec3">
+        <div class="sec3 sec3way">
             <div class="waytxt">
                 <div class="way_sub">
                     <p>오시는길</p>
@@ -375,12 +375,12 @@
                 <div class="way_btn_wrap">
                     <div class="yongin">
                         <a href="http://kko.to/qUwsR644mv" target="_blank">
-                            <img src="/grace/gracemo/img/content/way_btn1.png" alt="">
+                            <img src="/grace/img/content/way_btn1.png" alt="">
                         </a>
                     </div>
                     <div class="bundang">
                         <a href="http://kko.to/MNCQMcPYbW" target="_blank">
-                            <img src="/grace/gracemo/img/content/way_btn2.png" alt="">
+                            <img src="/grace/img/content/way_btn2.png" alt="">
                         </a>
                     </div>
                 </div>
@@ -389,8 +389,8 @@
         <div id="footer" class="footer"></div>
     </div>
     <!-- 제이쿼리 -->
-    <script src="/grace/gracemo/js/motion.js?ver<?php echo time()?>"></script>
-    <script src="/grace/gracemo/js/swiper.js?ver<?php echo time()?>"></script>
-    <script src="/grace/gracemo/js/pop.js?ver<?php echo time()?>"></script>
+    <script src="/grace/js/motion_mo.js"></script>
+    <script src="/grace/js/swiper.js"></script>
+    <script src="/grace/js/popup.js"></script>
 </body>
 </html>
